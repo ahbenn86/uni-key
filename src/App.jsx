@@ -1,13 +1,15 @@
-import './App.css'
+import React from "react";
+import { Container, Box } from "@chakra-ui/react";
+import Header from "../components/Header";
 
-function App() {
- 
-
+const App = () => {
   return (
-    <div className="App">
-      
-    </div>
-  )
-}
+    <Box bg={"whitesmoke"} color="black" height="100vh" paddingTop={130}>
+      <Container maxW='3xl' centerContent>
+        <Header/>
+      </Container>
+    </Box>
+  );
+};
 
-export default App
+export default App;
