@@ -13,3 +13,4 @@
 
 * React (JSX)
 * Chakra UI
+* Open AI
