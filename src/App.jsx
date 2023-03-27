@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import TextInput from "../components/TextInput";
 import Footer from "../components/Footer";
 import KeywordsModal from "../components/KeywordsModal";
+import './App.css';
 
 const App = () => {
   const [keywords, setKeywords] = useState('');
